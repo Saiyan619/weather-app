@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="country-media-query.css">
+    <link rel="stylesheet"  type= text/css href="countryData.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>country api</title>
+</head>
+<body>
+    <div class="dub-container">
+    <div class="container" id="contain">
+        <div class="sub-container">
+            <div class="search">
+            <input type="search" name="search" id="city-search" placeholder="Search for city...">
+            <img src="images/search(1).png" alt="" srcset="" class="search-icon" id="searchBtn">
+        </div>
+        <div class="error-msg">Sorry can't find city.</div>
+
+
+        <div class="forecast-con">
+        <div class="forecast">
+            <img src="images/sunnynew.png" alt="" srcset="" class="main-forecast">
+          <span id="degree"> 7℃</span>
+            <h2 id="city-name">New York</h2>
+            <p class="weather-name">Cloudy</p>
+        </div>
+        <div class="extra">
+            
+            <div class="extra1">
+                <div class="extra2--2">
+                    <div class="extra-img">  
+            <img src="images/Atmosphere-128x128.png" alt="" srcset="" class="extra-img">
+            </div>
+            <div class="extra-text">
+            <p id="humidValue">48%</p>
+            <p>Humidity</p>
+            </div>
+        </div>
+        </div>
+        
+        <div class="extra2">
+            <div class="extra2--2">
+            <div class="extra-img">
+            <img src="images/Breeze-128x128.png" alt="" srcset="" class="extra-img">
+        </div>
+        <div class="extra-text">
+            <p id="windValue">48%</p>
+            <p>Wind speed</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <div id="results"></div>
+    <!-- <button class="btn-country">where am i</button> -->
+    </div>
+    <script src="keys.js"></script>
+    <script src="CountryData.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: large;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+/* #6dd5ed */
+.container{
+    background-color: #03094b ;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 50%);
+}
+
+.sub-container{
+     padding: 30px 30px 30px;
+}
+
+.forecast-con{
+    display: none;
+}
+
+.search{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search > input{
+    padding: 15px;
+    width: 80%;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+
+
+.search-icon{
+    width: 40px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 100px;
+    box-shadow: rgb(0 0 0 / 50%);
+}
+
+.error-msg{
+    text-align: center;
+    /* display: none; */
+}
+
+.forecast{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-forecast{
+    width: 120px;
+}
+
+.forecast > span{
+    margin-top: 15px;
+    font-size: 70px;
+}
+
+.forecast > p{
+    font-size: 50px;
+}
+
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 5px;
+}
+
+.extra-img{
+    width: 70px;
+    box-shadow: rgb(0 0 0 / 100%);
+}
+
+.extra1--1,.extra2--2{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
